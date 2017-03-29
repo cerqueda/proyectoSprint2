@@ -9,18 +9,34 @@
     <h1>Trello</h1>
 
     <div>
-    <h3>Pendientes de la semana</h3>
-</div>
-<div>
-    <ul id="lista">
-    <li>Terminar exámen</li>
-    <li>Ordenar mi cuarto</li>
-    </ul>
+      <h3>Pendientes de la semana</h3>
+    </div>
+    <div>
+      <ul id="lista">
+        <li>Terminar exámen</li>
+        <li>Ordenar mi cuarto</li>
+      </ul>
+      <label for=""><h5>Agregar pendiente:</h5></label>
+      <input type="text" id="valorNuevoItem" value="">
+      <button onclick="agregarPendiente(valorNuevoItem)">Crear pendiente</button>
+    </div>
 
-<label for=""><h5>Agregar pendiente:</h5></label>
-<input type="text" id="valorNuevoItem" value="">
-<button onclick="agregarPendiente(valorNuevoItem)">Crear pendiente</button>
-</div>
+    <div>
+      <h3>Pendientes de la siguiente semana</h3>
+    </div>
+    <div>
+      <ul id="lista">
+        <li>Terminar exámen</li>
+        <li>Ordenar mi cuarto</li>
+      </ul>
+      <label for=""><h5>Agregar pendiente:</h5></label>
+      <input type="text" id="valorNuevoItem" value="">
+      <button onclick="agregarPendiente(valorNuevoItem)">Crear pendiente</button>
+
+      <label for=""><h5>Agregar lista</h5></label>
+      <input type="text" id="valorNuevoItem" value="">
+      <button onclick="agregarPendiente(valorNuevoItem)">Crear lista</button>
+    </div>
 
   </body>
 </html>
