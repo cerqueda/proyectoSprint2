@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Trello</title>
@@ -7,22 +7,20 @@
   <body>
     <script src="trello.js"></script>
     <h1>Trello</h1>
-  
+
     <div>
     <h3>Pendientes de la semana</h3>
 </div>
 <div>
-    <ul>
-    <li>Terminar exámen
-    <li>Ordenar mi cuarto
+    <ul id="lista">
+    <li>Terminar exámen</li>
+    <li>Ordenar mi cuarto</li>
     </ul>
-</div>
-    <h5>Agregar pendiente</h5>
 
-    <form action="index.html" method="GET">
-    Usuario: <input type="text" name ="txtbox" id="txtbox"/> <br/>
-    <input type="submit" id="button" value="Crear pendiente"/>
-    </form>
+<label for=""><h5>Agregar pendiente:</h5></label>
+<input type="text" id="valorNuevoItem" value="">
+<button onclick="agregarPendiente(valorNuevoItem)">Crear pendiente</button>
+</div>
 
   </body>
 </html>
