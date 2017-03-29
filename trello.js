@@ -1,5 +1,7 @@
-function agregarPendiente(valorNuevoItem) {
-    var nuevoItem = (document.getElementById('valorNuevoItem').value);
-    var listaPendientes = document.getElementById('lista');
-    lista.value=listaPendientes;
+function listaPendientes(valorNuevoPendiente) {
+    var input = document.createElement("input");
+    var listaPe = document.createTextNode("");
+    nuevoPendiente.appendChild(listaPe);
+    document.body.appendChild(nuevoPendiente)
+
 }
